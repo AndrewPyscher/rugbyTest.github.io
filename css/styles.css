@@ -17,8 +17,6 @@
    align-items: center;
    justify-content: center;
    align-items: center;
-   
- 
    background-color: #3c3c3c;
  }
  
@@ -62,27 +60,30 @@
    height: 100%;
    
    transform: translateX( 700px );
-   background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/1.jpg?raw=true );
-   
+   background-image: url("rugby1.png");
+   background-size: 100%;
    animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
  }
  
  
  .slide_part.slide_part-two {
    z-index: 6;
-   background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/2.jpg?raw=true );
+   background-image: url("rugby2.png");
+   background-size: 100%;
    animation-delay: 7s;
  }
  
  .slide_part.slide_part-three {
    z-index: 5;
-   background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/3.jpg?raw=true );
+   background-image: url("rugby3.png");
+   background-size: 100%;
    animation-delay: 14s;
  }
  
  .slide_part.slide_part-four {
    z-index: 4;
-   background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/4.jpg?raw=true );
+   background-image: url("rugby1.png");
+   background-size: 100%;
    animation-delay: 21s;
  }
  
@@ -93,12 +94,6 @@
    28% { transform: translateX( -700px ); }
    100% { transform: translateX( -700px ); }
  }
-
-
-
-
-
-
 
  
 :root {
