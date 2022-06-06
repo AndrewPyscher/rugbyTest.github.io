@@ -17,14 +17,19 @@
    justify-content: center;
    align-items: center;
    background-color: #3c3c3c;
+  
  }
  
  
  .slideshow {
    position: relative;
-   
-   width: 700px;
-   height: 400px;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+  background-size: contain;
+   min-width: 700px;
+   min-height: 400px;
    overflow: hidden;
    margin: auto;
    width: 50%;
@@ -59,7 +64,13 @@
    height: 100%;
    
    transform: translateX( 700px );
+   position: absolute;
+
    background-image: url("rugby1.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+
+   height: 100%;
    background-size: 100%;
    animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
  }
@@ -67,21 +78,33 @@
  
  .slide_part.slide_part-two {
    z-index: 6;
+   position: absolute;
    background-image: url("rugby2.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 100%;
    background-size: 100%;
    animation-delay: 7s;
  }
  
  .slide_part.slide_part-three {
    z-index: 5;
+   position: absolute;
    background-image: url("rugby3.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 100%;
    background-size: 100%;
    animation-delay: 14s;
  }
  
  .slide_part.slide_part-four {
    z-index: 4;
+   position: absolute;
    background-image: url("rugby1.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   height: 100%;
    background-size: 100%;
    animation-delay: 21s;
  }
@@ -10472,6 +10495,7 @@ textarea.form-control-lg {
   .px-lg-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
+
   }
 
   .py-lg-0 {
