@@ -9,7 +9,7 @@
     const playerDisplay = document.createElement('div');
     playerDisplay.classList.add('element');
     playerDisplay.classList.add('zero');
-    playerDisplay.style.background=`url('js/player${i}.png') 45%`
+    playerDisplay.style.background=`url('../js/player${i}.png') 45%`
 
     playerDisplay.style.backgroundSize ="cover";
   
@@ -27,7 +27,7 @@ $('.element').each(function() {
       console.log(background)
     background = $(this)[0].style.background;
     }
-    $(this)[0].style.background="url('js/sickmonkeyBack.jpeg') 45%"
+    $(this)[0].style.background="url('../js/sickmonkeyBack.jpeg') 45%"
     $(this)[0].style.backgroundSize="cover"
 
   });
