@@ -5,11 +5,11 @@
 
   const container = document.querySelector('.stage')
 
-  for(let i=1; i<4; i++){
+  for(let i=1; i<10; i++){
     const playerDisplay = document.createElement('div');
     playerDisplay.classList.add('element');
     playerDisplay.classList.add('zero');
-    playerDisplay.style.background=`url('../js/player${i}.png') 45%`
+    playerDisplay.style.background=`url('../js/player${(i%3) +1}.png') 45%`
 
     playerDisplay.style.backgroundSize ="cover";
   
