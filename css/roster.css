@@ -77,8 +77,9 @@ body {
 
 }
 .element.zero {
+
   position: relative;
-  background: url('kanye.jpg') 45% 0 no-repeat;
+  background: 45% 0 no-repeat;
   background-size: cover;
 }
 
