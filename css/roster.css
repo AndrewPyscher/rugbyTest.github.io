@@ -186,6 +186,8 @@ body {
   width: 306px;
   height: 492px;
   perspective: 1000px;
+  float: left;
+  margin: 20px;
 }
 
 .flip-card-inner {
@@ -208,17 +210,20 @@ body {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
 }
 
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  float: left;
 }
 
 .flip-card-back {
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+  float: left;
 }
 .image1 {
   position: relative;
