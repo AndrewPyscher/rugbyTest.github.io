@@ -187,7 +187,8 @@ body {
   height: 492px;
   perspective: 1000px;
   float: left;
-  margin: 20px;
+  margin: 36px;
+  
 }
 
 .flip-card-inner {
@@ -272,4 +273,10 @@ p{
   top: 100px;
   left: 60px;
   color: black;
+}
+
+.headers{
+  color: white;
+  margin: 10px;
+  text-decoration: underline;
 }
