@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link href="../css/styles.css" rel="stylesheet" />
+	<link href="../css/interestForm.css" rel="stylesheet" />
   <title>Interest Form</title>
 </head>
 <body>
@@ -25,6 +26,36 @@
 		</div>
 </nav>
 
+
+<form id="form">
+  <div class="field">
+    <label for="name">name</label>
+    <input type="text" name="name" id="name">
+  </div>
+  <div class="field">
+    <label for="email">email</label>
+    <input type="text" name="email" id="email">
+  </div>
+  <div class="field">
+    <label for="phone">phone</label>
+    <input type="text" name="phone" id="phone">
+  </div>
+  <div class="field">
+    <label for="message">message</label>
+    <input type="text" name="message" id="message">
+  </div>
+
+  <input type="submit" id="button" value="Send Email" >
+</form>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('xxKf1NFHnL2mYaYdL')
+</script>
+</div>
+<script src="../js/interestForm.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>
