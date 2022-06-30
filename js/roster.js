@@ -72,7 +72,7 @@ players.push(player)
     back.appendChild(newImgB)
 
     const p = document.createElement('p');
-    p.innerHTML = `Name: ${players[i].firstName} ${players[i].lastName} <br><br>Age: ${players[i].age}<br><br>Height: ${players[i].height}<br><br>Year: ${players[i].year}<br><br>Position: ${players[i].position}<br><br>Major: ${players[i].major}<br><br>Hometown: ${players[i].hometown}`;
+    p.innerHTML = `Name: ${players[i].firstName} ${players[i].lastName} <br><br>Age: ${players[i].age}<br><br>Height: ${players[i].height}<br><br>Class: ${players[i].year}<br><br>Position: ${players[i].position}<br><br>Major: ${players[i].major}<br><br>Hometown: ${players[i].hometown}`;
     
     back.appendChild(p)
 
