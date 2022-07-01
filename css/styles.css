@@ -16,8 +16,6 @@
    align-items: center;
    justify-content: center;
    align-items: center;
-   background-color: #3c3c3c;
-  
  }
  
  
@@ -196,7 +194,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   /*background-color: var(--bs-body-bg);*/
-  background-color:#808080;
+  background-color:#C2CAD0;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -4167,6 +4165,8 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  max-height: 50px;
+  
 }
 .navbar-nav {
   display: flex;
@@ -12357,3 +12357,7 @@ h1{
   border-style: solid;
 }
     
+.resize {
+  width: 50px;
+  height: auto;
+}
