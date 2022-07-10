@@ -10,110 +10,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
- body {
-   display: inline;
-   align-items: center;
-   justify-content: center;
-   align-items: center;
- }
- 
- 
- .slideshow {
-   position: relative;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-  /* background-size: contain; */
-   min-height: 400px;
-   overflow: hidden;
-   margin: auto;
-   width: 100%;
-   border-style: solid;
-   
-   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
- }
- 
- /*Light blue cover above the slide show*/
- .slideshow::after {
-   content: '';
-   position: absolute;
-   left: 0;
-   top: 0;
-   z-index: 900;
- 
-   display: block;
-   width: 100%;
-   height: 100%;
- 
-   background-color: rgba(140, 22, 115, 0.2);
- }
- 
- .slide_part {
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: 7;
- 
-   display: flex;
-   align-items: center;
-   width: 100%;
-   height: auto;
-   
-   transform: translateX( 0px );
-
-   background-image: url("rugby1.png");
-   background-repeat: no-repeat;
-   /* background-size: contain; */
-
-   background-size: 100%;
-   animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
- }
- 
- 
- .slide_part.slide_part-two {
-   z-index: 6;
-   position: absolute;
-   background-image: url("rugby2.png");
-   /* background-size: contain; */
-   background-repeat: no-repeat;
-   height: 100%;
-   background-size: 100%;
-   animation-delay: 7s;
- }
- 
- .slide_part.slide_part-three {
-   z-index: 5;
-   position: absolute;
-   background-image: url("rugby3.png");
-   /* background-size: contain; */
-   background-repeat: no-repeat;
-   height: 100%;
-   background-size: 100%;
-   animation-delay: 14s;
- }
- 
- .slide_part.slide_part-four {
-   z-index: 4;
-   position: absolute;
-   background-image: url("rugby1.png");
-   /* background-size: contain; */
-   background-repeat: no-repeat;
-   height: 100%;
-   background-size: 100%;
-   animation-delay: 21s;
- }
- 
- 
- @keyframes opaqTransition {
-   3% { transform: translateX( 0 ); }
-   25% { transform: translateX( 0 ); }
-   28% { transform: translateX( -700px ); }
-   100% { transform: translateX( -700px ); }
- }
-
- 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -174,8 +70,6 @@
   box-sizing: border-box;
 }
 
-
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -190,8 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  /*background-color: var(--bs-body-bg);*/
-  background-color:#C2CAD0;
+  background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -210,7 +103,7 @@ hr:not([size]) {
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -1213,7 +1106,7 @@ progress {
 }
 @media (min-width: 768px) {
   .col-md {
-    flex: 1 1 0%;
+    flex: 1 0 0%;
   }
 
   .row-cols-md-auto > * {
@@ -4162,8 +4055,6 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
-  max-height: 50px;
-  
 }
 .navbar-nav {
   display: flex;
@@ -7750,7 +7641,7 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: .5rem !important;
+  padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
 
@@ -8091,7 +7982,7 @@ textarea.form-control-lg {
 
 .bg-danger {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity));
+  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-light {
@@ -10495,7 +10386,6 @@ textarea.form-control-lg {
   .px-lg-5 {
     padding-right: 3rem !important;
     padding-left: 3rem !important;
-
   }
 
   .py-lg-0 {
@@ -12303,58 +12193,4 @@ textarea.form-control-lg {
   height: 4rem;
   width: 4rem;
   font-size: 2rem;
-}
-
-
-
-
-
-
-
-
-
-h1{
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-  background-color: #a6192e;
-}
-
-@media (min-width: 1200px) {
-  .container-fluid{
-      max-width: 80%;
-  }
-}
-    table.GeneratedTable {
-      width: 100%;
-      background-color: #ffffff;
-      border-collapse: collapse;
-      border-width: 2px;
-      border-color: #0d0d0d;
-      border-style: solid;
-      color: #000000;
-    }
-    
-    table.GeneratedTable td, table.GeneratedTable th {
-      border-width: 2px;
-      border-color: #0d0d0d;
-      border-style: solid;
-      padding: 3px;
-    }
-    
-    table.GeneratedTable thead {
-      background-color: #030303;
-    }
-
-    th{
-      color: #ffffff;
-    }
-
-.col-lg-2{
-  border-style: solid;
-}
-    
-.resize {
-  width: 50px;
-  height: auto;
 }
