@@ -6,7 +6,7 @@ for(let i=1; i<10; i++){
   row.classList.add('gx-5')
   row.classList.add('gy-5')
   const img = document.createElement('img');
-  img.src = `../css/rugby${(i%3) + 1}.png`
+  img.src = `../assets/rugby${(i%3) + 1}.png`
   
   row.appendChild(img);
   container.appendChild(row);
