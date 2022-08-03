@@ -1,67 +1,217 @@
 array = []
 
-let player ={
-    firstName: 'Jasmine',
-    lastName: 'Day',
-    position : 'Coach',
-    age : 23,
-    height : "5'7",
-    year : 'Coach',
-    major : 'People Person',
-    hometown : 'Saginaw'
-}
-array.push(player)
-
-let player1 ={
-  firstName: 'Steve',
-  lastName: 'Jobs',
-  position : 'Graveyard',
-  age : 60,
-  height : "6 feet under",
-  year : 'dead',
-  major : 'iPhone',
-  hometown : 'The dirt'
+let BaileyKosaski ={
+    firstName: 'Bailey',
+    lastName: 'Kosaski',
+    position : 'Inside Center',
+    age : 21,
+    height : "5'6",
+    year : 'Senior',
+    major : 'Biochemistry',
+    hometown : 'Ortonville, MI'
 }
 
-let player2 ={
-  firstName: 'Flynn',
-  lastName: 'Cat',
-  position : 'Window',
-  age : 6,
-  height : "1'",
-  year : 'cat',
-  major : 'sleeping',
-  hometown : 'home'
-}
-let player3 ={
-  firstName: 'Kanye',
-  lastName: 'West',
-  position : 'God Lover',
-  age : 45,
-  height : "6'",
-  year : 'who knows',
-  major : 'sleeping',
-  hometown : 'God'
+let BetsyNieman ={
+  firstName: 'Betsy',
+  lastName: 'Nieman',
+  position : 'Inside Center',
+  age : 20,
+  height : "5'1",
+  year : 'Sophomore',
+  major : 'English Education',
+  hometown : 'Dundee, MI'
 }
 
-let player4 ={
-  firstName: 'Liv',
-  lastName: 'Coach',
-  position : 'Coach',
+let LilyHarris ={
+  firstName: 'Lily',
+  lastName: 'Harris',
+  position : 'Wing',
+  age : 20,
+  height : "5'6",
+  year : 'Junior',
+  major : 'Occupational Therapy',
+  hometown : 'Flat Rock, MI'
+}
+let DanielleSchafer ={
+  firstName: 'Danielle',
+  lastName: 'Schafer',
+  position : 'Social Work',
+  age : 21,
+  height : "5'6",
+  year : 'Senior',
+  major : 'Social Work',
+  hometown : "Hubbardston, MI"
+}
+
+let KaylaHendrickson ={
+  firstName: 'Kayla',
+  lastName: 'Hendrickson',
+  position : 'Full Back',
+  age : 20,
+  height : "5'7",
+  year : 'Junior',
+  major : 'Biology',
+  hometown : 'Essexville, MI'
+}
+let EliviaHearns ={
+  firstName: 'Elivia',
+  lastName: 'Hearns',
+  position : 'Outside Center',
+  age : 21,
+  height : "5'6",
+  year : 'Senior',
+  major : 'Business Management',
+  hometown : 'Ortonville, MI'
+}
+
+let MaddiThreet ={
+  firstName: 'Maddi (Mule)',
+  lastName: 'Threet',
+  position : '8 Man',
+  age :21,
+  height : "5'8",
+  year : 'Senior',
+  major : 'Nursing',
+  hometown : 'Burton, MI'
+}
+
+let JackieGilbert ={
+  firstName: 'Jackie',
+  lastName: 'Gilbert',
+  position : '8 Man',
+  age : 20,
+  height : "5'2",
+  year : 'Sophomore',
+  major : 'Secondary Education English',
+  hometown : 'Linden, MI'
+}
+
+let MakaylaFord ={
+  firstName: 'Makayla',
+  lastName: 'Ford',
+  position : 'Flank',
+  age : 20,
+  height : "5'4",
+  year : 'Junior',
+  major : 'Rehabilitation Medicine',
+  hometown : 'Waterford, MI'
+}
+
+let JadeJarskey ={
+  firstName: 'Jade',
+  lastName: 'Jarskey',
+  position : 'Prop',
+  age : 20,
+  height : "5'7",
+  year : 'Sophomore',
+  major : 'Undecided',
+  hometown : 'Marine City, MI'
+}
+
+let MakyiaFord ={
+  firstName: 'Makyia',
+  lastName: 'Ford',
+  position : 'Flank',
+  age : 20,
+  height : "5'4",
+  year : 'Junior',
+  major : 'Exercise Science',
+  hometown : 'Waterford, MI'
+}
+
+
+let DrewHorton ={
+  firstName: 'Drew',
+  lastName: 'Horton',
+  position : 'Lock',
+  age : 21,
+  height : "5'5",
+  year : 'Senior',
+  major : 'Health & Physical Education',
+  hometown : 'AuGres, MI'
+}
+
+let RebekahWilliams ={
+  firstName: 'Rebekah',
+  lastName: 'Williams',
+  position : 'Hooker',
+  age : 22,
+  height : "5'4",
+  year : 'Senior',
+  major : 'Professional & Technical Education',
+  hometown : 'Millington, MI'
+}
+
+let BaileyBosler ={
+  firstName: 'Bailey (Boz)',
+  lastName: 'Bosler',
+  position : 'Fly Half',
   age : 22,
   height : "5'5",
-  year : 'idk',
-  major : 'idk',
-  hometown : 'idk'
+  year : 'Junior',
+  major : 'Secondary History Education',
+  hometown : 'Oscode, MI'
+}
+let MadisonKell ={
+  firstName: 'Madison',
+  lastName: 'Kell',
+  position : 'Scrum Half',
+  age : 21,
+  height : "5'5",
+  year : 'Senior',
+  major : 'Computer Science',
+  hometown : 'Trenton, MI'
+}
+let GraceCain ={
+  firstName: 'Grace',
+  lastName: 'Cain',
+  position : 'Inside Center',
+  age : 22,
+  height : "5'2",
+  year : 'Senior',
+  major : 'Education',
+  hometown : 'Cadillac, MI'
+}
+let LindseySomero ={
+  firstName: 'Lindsey',
+  lastName: 'Somero',
+  position : 'Wing',
+  age : 20,
+  height : "5'4",
+  year : 'Junior',
+  major : 'Social Studies Secondary Education',
+  hometown : 'Northport, MI'
 }
 
+let RosaAccardo ={
+  firstName: 'Rosa',
+  lastName: 'Accardo',
+  position : 'Wing',
+  age : 19,
+  height : "5'7",
+  year : 'Sophomore',
+  major : 'Elementary Education',
+  hometown : 'Richmond, MI'
+}
 
-array.push(player1)
-array.push(player2)
-array.push(player3)
-array.push(player4)
-
-
+array.push(BaileyKosaski)
+array.push(BetsyNieman)
+array.push(LilyHarris)
+array.push(DanielleSchafer)
+array.push(KaylaHendrickson)
+array.push(EliviaHearns)
+array.push(MaddiThreet)
+array.push(JackieGilbert)
+array.push(MakaylaFord)
+array.push(JadeJarskey)
+array.push(MakyiaFord)
+array.push(DrewHorton)
+array.push(RebekahWilliams)
+array.push(BaileyBosler)
+array.push(MadisonKell)
+array.push(GraceCain)
+array.push(LindseySomero)
+array.push(RosaAccardo)
 
   const spot = document.querySelector('.spotPlayers');
   console.log(spot)
