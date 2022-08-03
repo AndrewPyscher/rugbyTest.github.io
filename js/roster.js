@@ -1,8 +1,4 @@
-
 array = []
-
-
-
 
 let player ={
     firstName: 'Jasmine',
