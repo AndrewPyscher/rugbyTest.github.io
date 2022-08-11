@@ -35,7 +35,7 @@ let LilyHarris ={
 let DanielleSchafer ={
   firstName: 'Danielle',
   lastName: 'Schafer',
-  position : 'Social Work',
+  position : 'Wing',
   age : 21,
   height : "5'6",
   year : 'Senior',
@@ -194,6 +194,29 @@ let RosaAccardo ={
   hometown : 'Richmond, MI'
 }
 
+let ElizabethLedyard ={
+  firstName: 'Elizabeth',
+  lastName: 'Ledyard',
+  position : 'Prop',
+  age : 23,
+  height : "5'9",
+  year : 'Junior',
+  major : 'Upper Elementary Special Education',
+  hometown : 'Jonesville, MI'
+}
+
+let ShalynNeal ={
+  firstName: 'Shalyn',
+  lastName: 'Neal',
+  position : 'Lock',
+  age : 20,
+  height : "5'5",
+  year : 'Junior',
+  major : 'Occupational Therapy',
+  hometown : 'Waterford, MI'
+}
+
+
 array.push(BaileyKosaski)
 array.push(BetsyNieman)
 array.push(LilyHarris)
@@ -212,6 +235,8 @@ array.push(MadisonKell)
 array.push(GraceCain)
 array.push(LindseySomero)
 array.push(RosaAccardo)
+array.push(ElizabethLedyard)
+array.push(ShalynNeal)
 
   const spot = document.querySelector('.spotPlayers');
   console.log(spot)
@@ -235,7 +260,8 @@ array.push(RosaAccardo)
     newImgF.classList.add('image1')
   
     const newImgP = document.createElement('img');
-    newImgP.src = `../assets/${array[i].firstName}${array[i].lastName}.png`;
+    // newImgP.src = `../assets/${array[i].firstName}${array[i].lastName}.png`;
+    newImgP.src = `../assets/Headshots/nopfp.jpg`;
     newImgP.classList.add('image2');
   
     const logo = document.createElement('img');
