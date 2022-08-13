@@ -1,5 +1,5 @@
 .slideshow {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -214,7 +214,7 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, 100%, 0);
   z-index: 99;
   text-align: center;
   font-family: Raleway, sans-serif;
@@ -224,6 +224,7 @@ h1 {
   box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
   padding: 1em 2em;
   line-height: 1.5;
+
 }
 h1 small {
   display: block;
@@ -238,3 +239,138 @@ h1 small:last-child {
   border-top: 1px solid rgba(0, 0, 0, 0.25);
   padding-top: 0.5em;
 }/*# sourceMappingURL=help.css.map */
+
+.movePic{
+  position: relative;
+
+}
+
+
+h2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -450%);
+}
+
+.text {
+  /* position: absolute; */
+  top: 0; 
+  left: 0;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Apple Chancery",  cursive;
+  font-size: 50px;
+}
+span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.img1{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
+}
+
+
+.img2{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
+}
+
+
+
+.img3{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
+}
+
+
+
+.img4{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
+}
+
+
+
+.img5{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
+}
+
+
+
+.img6{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
+}
+
+
+
+.img7{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
+}
+
+
+
+.img8{
+  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-size: contain;                      
+  background-position: center ; 
+  background-repeat: no-repeat;
+  border: solid black;
+  width: 25%;
+  height: 400PX;
+  box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
+}
+
+
