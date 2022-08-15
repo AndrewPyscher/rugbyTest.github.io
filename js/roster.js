@@ -244,6 +244,7 @@ array.push(ShalynNeal)
     const flipCard = document.createElement('div')
     flipCard.classList.add('flip-card');
 
+
     const inner = document.createElement('div')
     inner.classList.add('flip-card-inner')
 
@@ -306,10 +307,12 @@ array.push(ShalynNeal)
 
 const spotC = document.querySelector('.spotCoaches');
   console.log(spot)
+
+
+
   for(let i=0; i<array.length; i++){ 
     const flipCard = document.createElement('div')
     flipCard.classList.add('flip-card');
-
     const inner = document.createElement('div')
     inner.classList.add('flip-card-inner')
 

@@ -272,13 +272,15 @@ span{
   line-height: normal;
 }
 
+/* note to self */
+/* add vh to width to make single row */
 .img1{
   background-image: url("../assets/Womens_Rugby_Crest.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
 }
@@ -290,12 +292,10 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
-
-
 
 .img3{
   background-image: url("../assets/Womens_Rugby_Crest.png");
@@ -303,7 +303,7 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
 }
@@ -316,7 +316,7 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
@@ -329,7 +329,7 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
@@ -342,7 +342,7 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
 }
@@ -355,7 +355,7 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
@@ -368,7 +368,7 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25vh;
+  width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
 }

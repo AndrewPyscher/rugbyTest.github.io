@@ -1,4 +1,10 @@
 
+ .fixPad{
+  padding-left: 5%;
+  padding-right: 5%;
+ }
+
+
  .flip-card {
   background-color: transparent;
   width: 306px;
@@ -6,7 +12,8 @@
   perspective: 1000px;
   float: left;
   margin: 36px;
-  
+
+
 }
 
 .flip-card-inner {
@@ -53,11 +60,11 @@
 
 .nameOfPlayer{
   position: absolute;
-  top: 42px;
-  left: 31px;
+  top: 45px;
+  left: 30px;
   width: 250px;
   color: white;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 
@@ -78,19 +85,20 @@
 }
 
 .positionOfPlayer{
-  position: absolute;
-  top: 405px;
-  left: 110px;
-
+  position: relative;
+  top: -88px;
+  left: 30px;
   color: white;
   font-size: 25px;
 }
 
 p{
-  position: absolute;
-  top: 100px;
-  left: 60px;
+  position: relative;
+  top: -390px;
+
   color: black;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .headers{
