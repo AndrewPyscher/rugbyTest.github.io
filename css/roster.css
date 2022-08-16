@@ -1,17 +1,17 @@
-/* 
+
  .fixPad{
   padding-left: 5%;
   padding-right: 5%;
- } */
+ }
 
-/* s */
+
  .flip-card {
   background-color: transparent;
   width: 306px;
   height: 492px;
   perspective: 1000px;
   float: left;
-  margin: 1.95%;
+  margin: 36px;
 
 
 }
@@ -105,8 +105,4 @@ p{
   color: white;
   margin: 10px;
   text-decoration: underline;
-}
-
-h2{
-  color: black;
 }
