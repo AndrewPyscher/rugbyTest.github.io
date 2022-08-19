@@ -375,7 +375,8 @@ span{
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-
+  width: 25;
+  height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
   background-size: cover;   
 }
