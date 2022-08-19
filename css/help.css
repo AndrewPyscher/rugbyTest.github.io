@@ -275,30 +275,32 @@ span{
 /* note to self */
 /* add vh to width to make single row */
 .img1{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby5.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
   width: 25;
   height: 400PX;
+  background-size: cover;   
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
 }
 
 
 .img2{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby6.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
   width: 25;
   height: 400PX;
+  background-size: cover;   
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
 
 .img3{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby7.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
@@ -306,12 +308,13 @@ span{
   width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
+  background-size: cover;   
 }
 
 
 
 .img4{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby11.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
@@ -319,17 +322,19 @@ span{
   width: 25;
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
+  background-size: cover;   
 }
 
 
 
 .img5{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby9.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
   width: 25;
+  background-size: cover;   
   height: 400PX;
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
@@ -337,38 +342,43 @@ span{
 
 
 .img6{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby12.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
   width: 25;
   height: 400PX;
+  background-size: cover;   
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
 }
 
 
 
 .img7{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby13.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
   width: 25;
   height: 400PX;
+  background-size: cover;   
   box-shadow:inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
 }
 
 
 
 .img8{
-  background-image: url("../assets/Womens_Rugby_Crest.png");
+  background-image: url("../assets/rugby8.png");
   background-size: contain;                      
   background-position: center ; 
   background-repeat: no-repeat;
   border: solid black;
-  width: 25;
-  height: 400PX;
+
   box-shadow:inset 0 0 0 2000px rgba(194, 25, 25, 0.4);
+  background-size: cover;   
 }
+
+
+
