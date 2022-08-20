@@ -29,9 +29,10 @@ jQuery('#query').on('input', function() {
   
   for(let i=0; i<array.length; i++){
     console.log(searchFor)
-    firstName = array[i].firstName.toUpperCase();
     lastName = array[i].lastName.toUpperCase();
-    if(firstName.includes(searchFor.toUpperCase()) || lastName.includes(searchFor.toUpperCase())){
+    name = array[i].firstName.toUpperCase() + " "+ lastName;
+    
+    if(name.includes(searchFor.toUpperCase())){
       searchedPlayers.push(array[i])
     }
   }
@@ -46,14 +47,6 @@ function removeChildren(){
 }
 
 window.onload = add(array);
-
-
-
-
-
-
-
-
 
 
 function add(array){
