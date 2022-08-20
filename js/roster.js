@@ -242,9 +242,10 @@ array.push(ShalynNeal)
   console.log(spot)
   for(let i=0; i<array.length; i++){ 
     //col-lg-6 col-xl-3
+  
     const flipCard = document.createElement('div')
     flipCard.classList.add('flip-card');
-    
+
     const inner = document.createElement('div')
     inner.classList.add('flip-card-inner')
 
