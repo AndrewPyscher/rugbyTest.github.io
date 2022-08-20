@@ -111,3 +111,8 @@ body{
   background-color: #3c3c3c;
 }
 
+#query{
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 250px;
+}
