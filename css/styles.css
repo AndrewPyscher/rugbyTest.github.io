@@ -84,8 +84,8 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
-  
+  /* background-color: var(--bs-body-bg); */
+  background-color: #b5b3b3;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -4036,6 +4036,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: larger;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -12195,3 +12196,4 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+

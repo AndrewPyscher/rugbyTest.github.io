@@ -242,9 +242,12 @@ h1 small:last-child {
 
 .movePic{
   position: relative;
-
 }
 
+.moveCenter{
+  top: -100px;
+  position: relative;
+}
 
 h2{
   position: absolute;
@@ -386,5 +389,7 @@ span{
     color: white;
 }
 
-
+.resize{
+  padding-right: 15px;
+}
 
