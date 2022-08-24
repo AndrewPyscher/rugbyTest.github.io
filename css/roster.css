@@ -108,7 +108,7 @@ h2{
 }
 
 body{
-  background-color: #3c3c3c;
+ background: url("../assets/blackMist.png");
 }
 
 #query{

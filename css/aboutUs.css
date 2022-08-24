@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 100%;
-  background: url('../assets/actualBackground.png');
+  background: url("../assets/mountain.png");
   background-size: cover;
   position: absolute;
   top: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 .layer {
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.25); */
   height: 100vh;
 
 }
@@ -58,9 +58,7 @@ h1{
     height: 45vh;
   }
 
-  .layer{
-    height: 130vh;
-  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -91,7 +89,7 @@ h1{
 
     .makeNice{
       width: 85vw;
-      height: 45vh;
+      height: 45vw;
 
     }
 }
