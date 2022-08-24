@@ -69,7 +69,8 @@ h1{
     }
   .center{
       width: 80%;
-      margin-top: 5%;}
+      margin-top: 5%;
+    }
 
   .makeNice{
     width: 90%;
@@ -84,11 +85,12 @@ h1{
     color: white;
     }
     .center{
+      width: 80%;
       margin-top: 5%;
     }
 
     .makeNice{
-      width: 65vw;
+      width: 85vw;
       height: 45vh;
 
     }
