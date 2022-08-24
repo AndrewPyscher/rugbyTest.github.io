@@ -2,8 +2,8 @@ const btn = document.getElementById('button');
 const userName = document.getElementById('name');
 const email = document.getElementById('email');
 const phone = document.getElementById('phone');
-const message = document.getElementById('message');
-
+const size = document.getElementById('size');
+const product = document.getElementById('product');
 
 
 document.getElementById('form')
@@ -15,6 +15,9 @@ document.getElementById('form')
 
    const serviceID = 'default_service';
    const templateID = 'template_ad3yp3b';
+
+
+
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
@@ -29,5 +32,6 @@ document.getElementById('form')
     userName.value = "";
     email.value = "";
     phone.value ="";
-    message.value="";
+    size.value="";
+  product.value="";
 });
