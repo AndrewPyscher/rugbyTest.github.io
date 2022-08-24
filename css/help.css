@@ -260,8 +260,6 @@ h2{
   /* position: absolute; */
   top: 0; 
   left: 0;
-
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,8 +274,7 @@ span{
   line-height: normal;
 }
 
-/* note to self */
-/* add vh to width to make single row */
+
 .img1{
   background-image: url("../assets/rugby5.png");
   background-size: contain;                      
