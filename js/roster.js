@@ -50,6 +50,7 @@ window.onload = add(array);
 
 
 function add(array){
+  array.sort( compare )
   const spot = document.querySelector('.spotPlayers');
   console.log(spot)
   for(let i=0; i<array.length; i++){ 
@@ -153,3 +154,15 @@ function add(array){
 
 // }
 }
+
+
+function compare( a, b ) {
+  if ( a.lastName < b.lastName ){
+    return -1;
+  }
+  if ( a.lastName > b.lastName ){
+    return 1;
+  }
+  return 0;
+}
+
