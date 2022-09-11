@@ -68,8 +68,12 @@ function add(array){
     console.log(`../assets/front.png`)
     newImgF.classList.add('image1')
     const newImgP = document.createElement('img');
-    // newImgP.src = `../assets/${array[i].firstName}${array[i].lastName}.png`;
-    newImgP.src = `../assets/Headshots/nopfp.jpg`;
+
+    try{
+     newImgP.src = `../assets/Headshots/${array[i].firstName}${array[i].lastName}.jpg`;}
+     catch(error){
+    newImgP.src = `../assets/Headshots/nopfp.png`;
+     }
     newImgP.classList.add('image2');
     const logo = document.createElement('img');
     logo.src = "../assets/test.png";
